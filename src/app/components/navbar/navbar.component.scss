@@ -1,0 +1,33 @@
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  background: none;
+  padding: 0 5px 0 5px;
+  .logo {
+    padding: 10px 10px 10px 10px;
+    background-image: linear-gradient(#fd337d, #fd613b);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: #fff;
+    margin: 8px;
+  }
+  ul {
+    display: inline-flex;
+    margin: 8px;
+  }
+  ul li {
+    list-style-type: none;
+  }
+  ul li a {
+    text-decoration: none;
+    color: #c7c8d0;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+}
+
+.active {
+  color: #fd337d !important;
+  border-bottom: #fd337d solid 2px !important;
+}

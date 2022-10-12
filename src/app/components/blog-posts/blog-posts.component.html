@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="cover-container d-flex flex-column">
+    <div><p class="h1 page-heading">The Blog</p></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="grid-img-1"></div>
+        </div>
+        <div class="col-md-4">
+          <div
+            class="grid-img-1-details d-flex flex-column justify-content-between"
+          >
+            <div>
+              <p class="h4 text-muted">Maret 05,2021</p>
+            </div>
+            <div>
+              <p class="h1 main-blog-text">
+                Tentana creativity block pada UI Designer
+              </p>
+            </div>
+            <div>
+              <p class="h6 text-muted">
+                Beberapa cara yang saya lakukan ketika tidak memiliki ide atau
+                bingung untuk memulai design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-4">
+        <div *ngFor="let blog of blogs" class="col-lg-4">
+          <div class="grid-item-2 d-flex flex-column">
+            <div class="poster-cover"></div>
+            <p class="text-muted">March 08, 2022</p>
+            <h1>Lorem Ipsum of Lorem de Ipsum</h1>
+            <p style="color: grey">
+              Lorem Ipsum of Lorem de Ipsum Lorem Ipsum of Lorem de Ipsum Lorem
+              Ipsum of Lorem de Ipsum Lorem Ipsum of Lorem de Ipsum Lorem Ipsum
+              of Lorem de Ipsum Lorem Ipsum of Lorem de Ipsum Lorem Ipsum of
+              Lorem de Ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<header>
+  <nav class="nav-bar d-flex align-items-center">
+    <div class="flex-grow-1">
+      <h1 class="logo text-center">D</h1>
+    </div>
+    <ul>
+      <li class="m-2" *ngFor="let navItem of navItems">
+        <a *ngIf="navItem !== navItems[1]" [routerLink]="['/blog']">
+          {{ navItem }}
+        </a>
+        <a
+          *ngIf="navItem === navItems[1]"
+          routerLinkActive="active"
+          [routerLink]="['/blog']"
+        >
+          {{ navItem }}
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
